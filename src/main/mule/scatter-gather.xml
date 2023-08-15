@@ -9,7 +9,7 @@ http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/htt
 	</http:listener-config>
 	<flow name="scatter-gatherFlow" doc:id="ceaae1a9-8029-4107-853b-de3ecf877307" >
 		<http:listener doc:name="Listener" doc:id="3589f3dc-d007-456a-b785-794789d73541" config-ref="HTTP_Listener_config" path="sg"/>
-		<logger level="INFO" doc:name="Logger" doc:id="cc9c082a-e6f6-451c-8a77-ccf93b5caf3f" message="started scatter-gather flow"/>
+		<logger level="INFO" doc:name="Logger" doc:id="cc9c082a-e6f6-451c-8a77-ccf93b5caf3f" message="started change in git scatter-gather flow"/>
 		<scatter-gather doc:name="Scatter-Gather" doc:id="df693336-f464-4bde-a37f-fcc356fc78d2" >
 			<route >
 				<set-payload value="#[payload]" doc:name="Set Payload" doc:id="325b0423-3cab-4ce2-ab77-a210b43109fd" />
