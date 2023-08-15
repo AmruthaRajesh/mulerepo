@@ -15,7 +15,7 @@ http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/htt
 				<set-payload value="#[payload]" doc:name="Set Payload" doc:id="325b0423-3cab-4ce2-ab77-a210b43109fd" />
 			</route>
 			<route >
-				<set-payload value="mango DB- for git GUI" doc:name="Set Payload" doc:id="51aafe1e-4e39-48e9-8326-04be12ad2dd8" />
+				<set-payload value="mango DB- for git GUI  using from git link" doc:name="Set Payload" doc:id="51aafe1e-4e39-48e9-8326-04be12ad2dd8" />
 			</route>
 			<route >
 				<logger level="INFO" doc:name="Logger" doc:id="3a1ccb31-ca08-4866-b65c-6a30c1c7ff1d" />
